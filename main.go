@@ -14,7 +14,7 @@ func main() {
 	s.Every(5).Seconds().Do(func() { fmt.Println("Hello World") })
 	s.Every(10).Seconds().Do(func() { fmt.Println("Word Hello") })
 
-	s.StartBlocking()
+	s.StartAsync()
 	http.ListenAndServe(":8080", nil)
 
 }
