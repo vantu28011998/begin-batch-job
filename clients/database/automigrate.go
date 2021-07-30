@@ -1,8 +1,8 @@
 package database
 
 import (
+	"Dlgo-pub-batch/entities"
 	"log"
-	"pub/entities"
 
 	"gorm.io/gorm"
 )

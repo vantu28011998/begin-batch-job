@@ -1,4 +1,4 @@
-module pub
+module Dlgo-pub-batch
 
 go 1.16
 
